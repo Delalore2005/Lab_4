@@ -1,29 +1,19 @@
-# ---- macOS ----
+.jupyter/
+.ipython/
+.cache/
+.local/
 .DS_Store
-
-# ---- Python ----
 __pycache__/
 *.pyc
-
-# ---- Jupyter ----
 .ipynb_checkpoints/
-
-# ---- R ----
 .Rhistory
 .RData
 .Rproj.user/
-
-# ---- Docker ----
 work/
 tmp/
 *.log
-
-# ---- Data ----
-# Не пушить датасеты
 data/*.csv
-# Но позволить класть пояснения
 !data/README.md
-
-# ---- Virtual environments ----
 venv/
 .env
+
