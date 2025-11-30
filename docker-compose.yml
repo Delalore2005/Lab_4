@@ -1,0 +1,25 @@
+services:
+
+  jupyter:
+    container_name: "jupyter_notebook"
+    image: "jupyter/datascience-notebook"
+    restart: "always"
+    environment:
+      - JUPYTER_TOKEN=470177
+    volumes:
+      - ./:/home/jovyan      
+    ports:
+      - 8888:8888
+
+  rstudio:
+    container_name: "rstudio"
+    image: "rocker/tidyverse"
+    restart: "always"
+    environment:
+      - PASSWORD=470177
+    volumes:
+      - ./:/home/rstudio     
+    ports:
+      - 8787:8787
+
+
