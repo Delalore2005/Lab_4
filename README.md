@@ -76,7 +76,7 @@ docker-compose up -d
 
   * 📒 **Jupyter Notebook:** [http://localhost:8888](http://localhost:8888)
       * **Токен:** `470177`
-  * 📊 **RStudio:** [http://localhost:8787](http://localhost:87)
+  * 📊 **RStudio:** [http://localhost:8787](http://localhost:8787)
       * **Логин:** `rstudio` (стандартный)
       * **Пароль:** `470177`
 
@@ -163,6 +163,10 @@ def kmeans_custom(X, n_clusters, max_iter=100):
 | K-Means (Sklearn) | Gaussian Mixture |
 |:---:|:---:|
 | ![K-Means (Sklearn)](images/kmeans_sklearn.png) | ![Gaussian Mixture](images/gaussian_mixture.png) |
+
+| K-Means (Custom) | Agglomerative Clustering |
+|:---:|:---:|
+| ![K-Means (Custom)](images/kmeans_custom.png) | ![Agglomerative Clustering](images/agglomerative_clustering.png) |
 
 -----
 
