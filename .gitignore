@@ -17,3 +17,4 @@ data/*.csv
 venv/
 .env
 
+bfg.jar
